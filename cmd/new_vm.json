@@ -1,0 +1,25 @@
+{
+  "vm": {
+    "name": "guest1",
+    "memoryStartupBytes": "16GB",
+    "generation": 2,
+    "newVHDPath": "C:\\Hyper-V\\Virtual Hard Disks\\guest1.vhdx",
+    "newVHDSizeBytes": "128GB"
+  },
+  "cpu": {
+    "count": 4,
+    "exposeVirtualizationExtensions": true
+  },
+  "network": {
+    "macAddressSpoofing": false,
+    "nic": [
+      {
+        "name": "nic1",
+        "vSwitch": "vInternal"
+      }
+    ]
+  },
+  "iso": {
+    "path": "C:\\iso\\SERVER_EVAL_x64FRE_ja-jp.iso"
+  }
+}
