@@ -3,6 +3,7 @@
 ## How to use
 
 ```powershell
-new_vm.cmd .\sample\new_vm.json
+cd cmd
+new_vm.cmd ..\sample\new_vm.json
 ```
 
